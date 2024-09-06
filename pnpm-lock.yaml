@@ -10,13 +10,13 @@ importers:
     dependencies:
       next:
         specifier: 15.0.0-canary.143
-        version: 15.0.0-canary.143(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 15.0.0-canary.143(react-dom@18.3.1(react@19.0.0-beta-26f2496093-20240514))(react@19.0.0-beta-26f2496093-20240514)
       react:
-        specifier: ^18
-        version: 18.3.1
+        specifier: 19.0.0-beta-26f2496093-20240514
+        version: 19.0.0-beta-26f2496093-20240514
       react-dom:
         specifier: ^18
-        version: 18.3.1(react@18.3.1)
+        version: 18.3.1(react@19.0.0-beta-26f2496093-20240514)
     devDependencies:
       '@types/node':
         specifier: ^20
@@ -1387,8 +1387,8 @@ packages:
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
 
-  react@18.3.1:
-    resolution: {integrity: sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==}
+  react@19.0.0-beta-26f2496093-20240514:
+    resolution: {integrity: sha512-ZsU/WjNZ6GfzMWsq2DcGjElpV9it8JmETHm9mAJuOJNhuJcWJxt8ltCJabONFRpDFq1A/DP0d0KFj9CTJVM4VA==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -3019,7 +3019,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  next@15.0.0-canary.143(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  next@15.0.0-canary.143(react-dom@18.3.1(react@19.0.0-beta-26f2496093-20240514))(react@19.0.0-beta-26f2496093-20240514):
     dependencies:
       '@next/env': 15.0.0-canary.143
       '@swc/counter': 0.1.3
@@ -3028,9 +3028,9 @@ snapshots:
       caniuse-lite: 1.0.30001658
       graceful-fs: 4.2.11
       postcss: 8.4.31
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      styled-jsx: 5.1.6(react@18.3.1)
+      react: 19.0.0-beta-26f2496093-20240514
+      react-dom: 18.3.1(react@19.0.0-beta-26f2496093-20240514)
+      styled-jsx: 5.1.6(react@19.0.0-beta-26f2496093-20240514)
     optionalDependencies:
       '@next/swc-darwin-arm64': 15.0.0-canary.143
       '@next/swc-darwin-x64': 15.0.0-canary.143
@@ -3200,17 +3200,15 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-dom@18.3.1(react@18.3.1):
+  react-dom@18.3.1(react@19.0.0-beta-26f2496093-20240514):
     dependencies:
       loose-envify: 1.4.0
-      react: 18.3.1
+      react: 19.0.0-beta-26f2496093-20240514
       scheduler: 0.23.2
 
   react-is@16.13.1: {}
 
-  react@18.3.1:
-    dependencies:
-      loose-envify: 1.4.0
+  react@19.0.0-beta-26f2496093-20240514: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -3425,10 +3423,10 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  styled-jsx@5.1.6(react@18.3.1):
+  styled-jsx@5.1.6(react@19.0.0-beta-26f2496093-20240514):
     dependencies:
       client-only: 0.0.1
-      react: 18.3.1
+      react: 19.0.0-beta-26f2496093-20240514
 
   sucrase@3.35.0:
     dependencies:
