@@ -15,7 +15,7 @@ export const config = {
 
  
 export function middleware(request: NextRequest) {
-    let response = NextResponse.next();
+    const response = NextResponse.next();
 
     response.headers.set('x-test', 'foo-bar');
 
