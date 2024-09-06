@@ -15,7 +15,11 @@ export const config = {
 
  
 export function middleware() {
-    const response = NextResponse.next();
+    const response = NextResponse.next({
+        headers: {
+            'x-foo': 'foo-bar'
+        }
+    });
 
     response.headers.set('x-test', 'foo-bar');
 
