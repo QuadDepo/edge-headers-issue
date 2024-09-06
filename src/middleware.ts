@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server"
+import { NextRequest, NextResponse } from "next/server"
 
 export const config = {
   matcher: [
@@ -14,7 +14,10 @@ export const config = {
 }
 
  
-export function middleware() {
+export function middleware(req: NextRequest) {
+
+    req.headers.set('x-test', 'foo-bar');
+    
     const response = NextResponse.next({
         headers: {
             'x-foo': 'foo-bar'
